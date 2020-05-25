@@ -30,11 +30,14 @@ export default class CreateTransaction1590175203769
           },
           {
             name: 'value',
-            type: 'integer',
+            type: 'decimal',
+            precision: 10,
+            scale: 2,
           },
           {
             name: 'category_id',
             type: 'uuid',
+            isNullable: true,
           },
           {
             name: 'created_at',
